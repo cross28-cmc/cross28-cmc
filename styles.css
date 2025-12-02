@@ -1,46 +1,86 @@
-/* Basic Reset */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
- }
+/* ---------- Global Styles ---------- */
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.6;
-  background-color: #f5f5f5;
-  color: #333;
-  padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f7f7;
+    color: #222;
+    margin: 0;
+    padding: 0;
+    text-align: center;
 }
 
-.header {
-text-align: center;
-margin-bottom: 20px;
+/* Container to center content */
+body > * {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
-.profile-img {
-width: 150px;
-height: auto;
-border-radius: 50%;
-}
+/* ---------- Headings ---------- */
 
 h1 {
-margin-top: 10px;
+    font-size: 48px;
+    margin-top: 30px;
+    color: #333;
 }
-.bio, .projects {
-margin-bottom: 20px;
+
+h2, h3 {
+    margin-top: 40px;
+    color: #444;
 }
+
+/* ---------- Horizontal Line Style ---------- */
+
+hr {
+    border: none;
+    border-top: 2px solid #ccc;
+    width: 80%;
+    margin: 25px auto;
+}
+
+/* ---------- Image Styling ---------- */
+
+img {
+    border-radius: 12px;
+}
+
+/* Make profile picture round */
+img[alt="Self Photo"] {
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* ---------- Paragraph & Lists ---------- */
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+li::before {
+    content: "• ";
+    color: #777;
+}
+
+/* ---------- Link Styling ---------- */
 
 a {
-color: #333;
-text-decoration: none;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
 }
 
-a:hover {
-text-decoration: underline;
+a img {
+    transition: transform 0.2s ease;
 }
 
-footer {
-text-align: center;
-margin-top: 20px;
+a img:hover {
+    transform: scale(1.1);
 }
