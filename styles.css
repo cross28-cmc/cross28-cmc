@@ -10,7 +10,7 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-    color: #1a3d7c;
+    color: #0b2f6b;
 }
 
 /* Horizontal line */
@@ -31,11 +31,12 @@ img[alt="Self Photo"] {
 
 /* Lists */
 ul {
-    text-align: left;
-    display: inline-block;
-    margin: 0 auto;
-    padding-left: 20px;
+    text-align: left;       /* keeps text left-aligned */
+    display: block;         /* default display for ul */
+    margin: 0 auto 20px;    /* centers the block and adds spacing */
+    padding-left: 40px;     /* default padding for bullets */
     font-size: 18px;
+    list-style-position: outside; /* ensures bullets are outside the text */
 }
 
 /* Links (social media icons) */
