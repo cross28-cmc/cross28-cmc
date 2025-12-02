@@ -31,12 +31,12 @@ img[alt="Self Photo"] {
 
 /* Lists */
 ul {
-    display: inline-block;       /* shrink to fit content */
-    text-align: center;            /* bullets stay left-aligned */
-    margin: 0 auto 20px;         /* centers the ul block */
-    padding-left: 40px;          /* proper bullet spacing */
+    display: table;       /* makes the ul shrink to fit content */
+    margin: 0 auto 20px;  /* centers the block */
+    padding-left: 40px;   /* proper bullet spacing */
     font-size: 18px;
-    list-style-position: outside;
+    list-style-position: outside; /* bullets stay outside text */
+    text-align: left;     /* text inside the list stays left-aligned */
 }
 
 /* Links (social media icons) */
