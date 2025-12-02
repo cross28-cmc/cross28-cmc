@@ -32,7 +32,7 @@ img[alt="Self Photo"] {
 /* Lists */
 ul {
     display: inline-block;       /* shrink to fit content */
-    text-align: left;            /* bullets stay left-aligned */
+    text-align: center;            /* bullets stay left-aligned */
     margin: 0 auto 20px;         /* centers the ul block */
     padding-left: 40px;          /* proper bullet spacing */
     font-size: 18px;
