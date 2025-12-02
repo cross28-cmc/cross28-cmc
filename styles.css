@@ -10,7 +10,7 @@ body {
 
 /* Headings */
 h1, h2, h3 {
-    color: #003366; /* dark blue */
+    color: #f3f3f3;
 }
 
 /* Horizontal line */
@@ -35,7 +35,7 @@ img[alt="Self Photo"] {
 
 /* Lists */
 ul {
-    text-align: left; /* makes the list easy to read */
+    text-align: center; /* makes the list easy to read */
     display: inline-block;
     font-size: 18px;
 }
@@ -45,6 +45,9 @@ a img {
     width: 90px;
     height: 90px;
     transition: 0.2s;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
 }
 
 a img:hover {
