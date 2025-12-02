@@ -21,15 +21,11 @@ hr {
     margin: 20px auto;
 }
 
-/* Center all images */
-img {
-    display: block;
-    margin: 0 auto;
-    border-radius: 10px;
-}
 
 /* Make profile picture round */
 img[alt="Self Photo"] {
+    display: block;
+    margin: 0 auto;
     border-radius: 50%;
 }
 
@@ -50,6 +46,7 @@ a img {
     width: 90px;
     height: 90px;
     transition: 0.2s;
+    
 }
 
 a img:hover {
