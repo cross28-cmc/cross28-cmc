@@ -44,13 +44,3 @@ a {
     display: inline-block;  /* makes icons stay in one row */
     margin: 0 10px;
 }
-
-a img {
-    width: 90px;
-    height: 90px;
-    transition: 0.2s;
-}
-
-a img:hover {
-    transform: scale(1.1);
-}
